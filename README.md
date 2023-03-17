@@ -1,4 +1,5 @@
 # Crowdfunding_ETL
+## By TGoins and AHarris
 For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
 
 Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track.
@@ -137,7 +138,15 @@ Create the Category and Subcategory DataFrames
  * For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the pandas.DataFrame.mergeLinks to an external site. in the Pandas documentation.
 
 ## Support and Resources
-Your instructional team will provide support during classes and office hours. You will also have access to learning assistants and tutors to help you with topics as needed. Make sure to take advantage of these resources as you collaborate with your partner on this project.
+- https://www.quickdatabasediagrams.com/
+- https://docs.python.org/3/howto/regex.html
+- https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
+- https://www.bmc.com/blogs/what-is-etl-extract-transform-load-etl-explained/
+- https://community.dataquest.io/t/what-does-the-column-match-in-extractall-mean/550532/4
+![image (2)](https://user-images.githubusercontent.com/112741203/225539881-b053cf1e-c99a-4c31-a520-e6c6f6ab9347.png)
+![image (3)](https://user-images.githubusercontent.com/112741203/225539892-372cde72-5874-49c7-a6b6-21b5d2f04594.png)
 
 
 
