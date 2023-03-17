@@ -23,6 +23,8 @@ CREATE TABLE "Compaign" (
      )
 );
 
+SELECT * FROM "Compaign"
+
 CREATE TABLE "Category" (
     "category_id" VARCHAR   NOT NULL,
     "category" VARCHAR   NOT NULL,
@@ -30,6 +32,8 @@ CREATE TABLE "Category" (
         "category_id"
      )
 );
+
+SELECT * FROM "Category"
 
 CREATE TABLE "Contacts" (
     "contact_id" INT   NOT NULL,
@@ -41,6 +45,8 @@ CREATE TABLE "Contacts" (
      )
 );
 
+SELECT * FROM "Contacts"
+
 CREATE TABLE "Subcategory" (
     "subcategory_id" VARCHAR   NOT NULL,
     "subcategory" VARCHAR   NOT NULL,
@@ -48,6 +54,8 @@ CREATE TABLE "Subcategory" (
         "subcategory_id"
      )
 );
+
+SELECT * FROM "Subcategory" 
 
 ALTER TABLE "Compaign" ADD CONSTRAINT "fk_Compaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "Contacts" ("contact_id");
